@@ -386,8 +386,8 @@ button {
 
 .modal {
 
-width: 50%;
-height: 40%;
+width: 70%;
+height: 50%;
 background: rgba(0, 0, 0, 0);
 /*overflow: hidden;*/
 display: flex;
@@ -396,14 +396,15 @@ display: flex;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content:center;
   transition: transform 1s;
   transform: translateY(-0%);
   
 }
 .modal > img {
   box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.2);
-  width: 90%;
+  width: 500px;
+  
   border-radius: 10px;
 }
   .modal-close{
