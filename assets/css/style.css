@@ -388,7 +388,7 @@ button {
 
 width: 50%;
 height: 40%;
-background: var(--card-color);
+background: rgba(0, 0, 0, 0);
 /*overflow: hidden;*/
 display: flex;
   justify-content: center;
@@ -403,7 +403,7 @@ display: flex;
 }
 .modal > img {
   box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
 }
   .modal-close{
